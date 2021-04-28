@@ -1,0 +1,122 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+section{
+    padding: 5px 70px;
+    margin-top: 50px;
+}
+section:nth-child(1){
+    margin-top: 0;
+}
+.top{
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+  
+}
+.top-content{
+    width: 600px;
+}
+.tittle-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 400px;
+    width: 1400px; */
+}
+.tittle-part img{
+    width: 500px;
+}
+h1{
+    font-size: 60px;
+    font-weight: normal;
+}
+h1 span{
+    color: lightsalmon;
+}
+
+.button{
+    background-color: tomato;
+    padding: 5px 15px;
+    border-radius: 5%;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, #c23c22, #db9689);
+}
+.middle-part{
+width: 600px;
+}
+.middle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 400px;
+    width: 1400px; */
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+div img{
+    width: 500px;
+}
+.buttontwo{
+    background-color: tomato;
+    padding: 5px 15px;
+    border-radius: 5%;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, #c23c22, #db9689);
+
+}
+.bottom{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom-part-left{
+    border-left: 5px solid lightsalmon;
+    box-shadow: 10px 10px 45px grey;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    width: 550px;
+}
+.bottom-part-right{
+    border-left: 5px solid lightblue;
+    box-shadow: 10px 10px 45px grey;
+    background-color: #fff; 
+    border-radius: 5px;
+    padding: 20px;
+    width: 550px;
+}
+.bottom h4{
+    color: lightsalmon;
+}
+footer{
+    text-align: center;
+    font-size: 15px;
+    padding: 90px 90px 30px 90px;
+}
+
+.image{
+    position: relative;
+}
+.image .sharan{
+    position: absolute;
+    top: 35px;
+    left: 53.5%;
+    transform: translateX(-50%);
+    width: 50%;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
